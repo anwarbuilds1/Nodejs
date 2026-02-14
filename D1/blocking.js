@@ -1,5 +1,8 @@
-const fs = required('fs');
+const fs = require('fs');
 
-// Blocking code
-const data = fs.readFileSync('file.txt', 'utf8');
-console.log(data);
+console.log("Start");
+
+const data = fs.readFileSync('bigfile.txt');
+console.log("File read");
+
+console.log("End");
