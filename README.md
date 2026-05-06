@@ -1,6 +1,7 @@
 ## PHASE 1 – Backend & Node.js Foundations
+
 - What is backend? (the kitchen of a restaurant) ✅
-- Client‑server architecture
+- Client‑server architecture ✅
 - CLI vs GUI (talking directly vs pointing and clicking)✅
 - What Node.js actually is (a program that runs JavaScript outside your browser)
 - Why Node exists (to build fast, scalable network programs)
@@ -15,6 +16,7 @@
 - History of Node.js (a quick story)
 
 ## PHASE 2 – Terminal & OS Fundamentals
+
 - Terminal and shell (the command centre)
 - Basic shell commands (echo, pwd, whoami, ls, cd, touch, mkdir, cp, mv, rm, cat, grep, ps, kill)
 - Editing files (nano, vim basics)
@@ -30,12 +32,13 @@
 - process object in Node (your app's ID card)
 
 ## PHASE 3 – Node Module System & Package Management
+
 - CommonJS (require, module.exports)
 - module.exports vs exports (the subtle difference)
 - Module wrapper function (what Node adds around your code)
 - Module resolution algorithm (how Node finds and loads modules)
 - ES modules (import/export)
-- __filename and __dirname in ESM (and how to get them)
+- **filename and **dirname in ESM (and how to get them)
 - NPM deep dive: what happens during npm install, package-lock.json, node_modules structure
 - package.json deep dive (every field explained)
 - Semantic versioning
@@ -45,6 +48,7 @@
 - CLI vs library packages (design differences)
 
 ## PHASE 4 – Working with Files (fs module) & Paths
+
 - File system basics: reading/writing files (sync vs callback vs promise)
 - File descriptors (handles to open files)
 - Path manipulation (path module)
@@ -55,6 +59,7 @@
 - Mini project: File organizer CLI (sort files by extension)
 
 ## PHASE 5 – Data Representation, Buffers, and Binary
+
 - Binary, decimal, hex systems (how computers count)
 - Character encoding (ASCII, Unicode, UTF‑8, UTF‑16)
 - Endianness (byte order)
@@ -67,6 +72,7 @@
 - Writing binary to disk and network
 
 ## PHASE 6 – Event‑Driven Architecture & EventEmitter
+
 - Understanding events and callbacks
 - EventEmitter class: on, emit, once, removeListener
 - How EventEmitter works internally (listeners array)
@@ -76,10 +82,11 @@
 - Memory leaks with listeners
 
 ## PHASE 7 – Streams – The Node.js Superpower
+
 - What are streams? (water flowing through pipes)
 - Why streams are memory-efficient
 - Types: Readable, Writable, Duplex, Transform
-- Internal mechanics: buffers, flowing vs paused modes, _read, _write
+- Internal mechanics: buffers, flowing vs paused modes, \_read, \_write
 - Piping (pipe() and pipeline)
 - Backpressure (when the sink can't keep up)
 - Implementing custom streams
@@ -87,6 +94,7 @@
 - Benchmark: Compare reading large file with fs.readFile vs stream
 
 ## PHASE 8 – Networking Fundamentals
+
 - How the internet works (simplified)
 - IP addresses (v4 & v6) (street addresses)
 - Ports (apartment numbers)
@@ -102,6 +110,7 @@
 - Tools: ping, netstat, curl, telnet, nslookup
 
 ## PHASE 9 – Building Network Servers with Core Modules
+
 - TCP server with net module
 - UDP server with dgram module
 - Building an HTTP server from scratch with http module
@@ -111,6 +120,7 @@
 - Mini project: Simple file server (like python's http.server)
 
 ## PHASE 10 – Express.js & RESTful APIs
+
 - Why Express? (routing, middleware, ecosystem)
 - Express internals: what app.use does, how middleware stack works
 - Routing: app.get, app.post, route parameters
@@ -122,6 +132,7 @@
 - Mini project: Task manager API with Express
 
 ## PHASE 11 – Databases – MongoDB & PostgreSQL
+
 - How Node talks to a database (drivers, connection strings)
 - Connection pooling (reusing connections)
 - MongoDB: document model, CRUD operations, indexing, aggregation
@@ -133,6 +144,7 @@
 - Backup and restore basics
 
 ## PHASE 12 – ORM/ODM Deep Dive – Mongoose
+
 - Schema definition, data types
 - Models and instances
 - CRUD with Mongoose
@@ -145,6 +157,7 @@
 - Performance considerations
 
 ## PHASE 13 – Authentication & Authorization
+
 - Hashing passwords (bcrypt, scrypt, pbkdf2)
 - JWT: structure, signing, verification, when to use
 - Sessions: server-side storage (memory, database, Redis)
@@ -157,6 +170,7 @@
 - Mini project: Add authentication to task manager API
 
 ## PHASE 14 – Caching with Redis
+
 - Why caching? (speed, reduce database load)
 - Redis data structures: strings, hashes, lists, sets, sorted sets
 - Common use cases: session store, rate limiting, job queue, cache
@@ -166,6 +180,7 @@
 - Project: Implement rate limiting and session store with Redis
 
 ## PHASE 15 – Testing Node.js Applications
+
 - Types of tests: unit, integration, e2e
 - Testing frameworks: Jest, Mocha, Chai, Supertest
 - Mocking and stubbing (sinon)
@@ -176,6 +191,7 @@
 - CI integration
 
 ## PHASE 16 – Deployment & Infrastructure
+
 - Process managers: PM2 (clustering, monitoring)
 - Reverse proxy with NGINX (load balancing, SSL termination)
 - Docker: containerizing Node apps, Dockerfile best practices, docker-compose
@@ -186,6 +202,7 @@
 - Basic server hardening (firewall, fail2ban)
 
 ## PHASE 17 – Cloud Services (AWS)
+
 - EC2: virtual machines, security groups, SSH
 - S3: object storage, buckets, static hosting, signed URLs
 - IAM: users, roles, policies
@@ -196,6 +213,7 @@
 - Project: Deploy task manager with S3 for file uploads
 
 ## PHASE 18 – Serverless Architecture
+
 - What is serverless? (FaaS)
 - AWS Lambda: execution model, cold starts, limits
 - API Gateway: REST APIs for Lambda
@@ -205,6 +223,7 @@
 - When to use serverless vs traditional
 
 ## PHASE 19 – Message Queues & Event‑Driven Architecture
+
 - Why message queues? (decoupling, reliability, scaling)
 - RabbitMQ vs Kafka vs SQS (brief comparison)
 - Basic patterns: work queues, pub/sub, routing, topics
@@ -213,6 +232,7 @@
 - Idempotency and retries
 
 ## PHASE 20 – Observability & Production Readiness
+
 - Logging: structured logging (pino, winston), log levels, centralization (ELK, Loki)
 - Metrics: Prometheus, custom metrics (response time, error rate, request rate)
 - Tracing: OpenTelemetry, distributed tracing (Jaeger)
@@ -222,6 +242,7 @@
 - Performance profiling (clinic.js, 0x)
 
 ## PHASE 21 – Node.js Internals Deep Dive
+
 - Node architecture: JS layer, bindings, libuv, V8
 - V8: hidden classes, inline caching, garbage collection (generational, mark-sweep)
 - libuv: event loop phases (timers, I/O callbacks, idle, poll, check, close), thread pool
@@ -231,6 +252,7 @@
 - Exploring Node source code
 
 ## PHASE 22 – Scaling Node.js Applications
+
 - Horizontal scaling: multiple instances, load balancers
 - Stateless design
 - Database replication and sharding
@@ -241,6 +263,7 @@
 - Circuit breakers and retries
 
 ## PHASE 23 – Advanced Architecture Patterns
+
 - Clean architecture / Hexagonal architecture
 - Domain-driven design (DDD) basics
 - CQRS and Event Sourcing
@@ -249,6 +272,7 @@
 - gRPC for inter-service communication
 
 ## PHASE 24 – Capstone Project – Build a Production‑Ready Platform
+
 - Build a full‑scale course hosting platform (like Udemy clone):
   - Authentication system (signup, login, roles)
   - RBAC (admin, instructor, student)
