@@ -1,6 +1,6 @@
 ## PHASE 1 – Backend & Node.js Foundations
 - What is backend? (the kitchen of a restaurant) ✅
-- Client‑server architecture (customer and waiter/chef) ✅
+- Client‑server architecture
 - CLI vs GUI (talking directly vs pointing and clicking)✅
 - What Node.js actually is (a program that runs JavaScript outside your browser)
 - Why Node exists (to build fast, scalable network programs)
